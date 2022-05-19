@@ -1,6 +1,7 @@
-# Thunder Client
-This is a website which helps you to request an API like Post Man
+# Thunder Client 
+![asdf](https://img.shields.io/badge/version-1.0-green)
 
+This is a website which helps you to request an API like Post Man
 [Open Thunder Client](https://thunder-client.herokuapp.com/)
 
 ## Screenshots
@@ -12,4 +13,3 @@ You can contact me on [GitHub](https://github.com/muhammedraiyaan2) or [Profile]
 ## Developer
 
 - [@muhammedraiyaan2](https://github.com/muhammedraiyaan2)
-
