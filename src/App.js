@@ -1,7 +1,15 @@
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import {useEffect} from 'react'
 import Navbar from './Navbar'
+import Post from './Post'
 function App() {
   useEffect(() => {
     let gets=document.getElementById("get")
@@ -18,8 +26,14 @@ function App() {
   
   return (
     <>
+    <Router>
     <Navbar/>
-    <div className="form">
+      <Switch>
+        <Route path="/post">
+          <Post/>
+        </Route>
+        <Route path="/">
+        <div className="form">
       <div className="form2">
       <input type="text" id="get" />
       <button id="getBtn">GET</button>
@@ -28,6 +42,10 @@ function App() {
       </pre>
       </div>
     </div>
+        </Route>
+      </Switch>
+    </Router>
+   
     </>
   );
 }

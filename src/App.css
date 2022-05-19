@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 .language-html{
   width: 50rem;  
   height: 23rem;
@@ -53,4 +54,8 @@ nav ul li{
   border: white;
   padding: 0.6rem 1rem;
   border-radius: 3px;
+  font-style: italic;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1em;
+
 }
